@@ -46,6 +46,8 @@
 * [394. Decode String](#8.2)
 * [104. Maximum Depth of Binary Tree](#8.3)
 * [100. Same Tree](#8.4)
+
+
 ## **Detail** ##
 
 <h3 id="1.1">167. Two Sum II - Input array is sorted</h3>
@@ -286,7 +288,7 @@ Explanation: The perimeter is the 16 yellow stripes in the image below:
 
 ![](https://leetcode.com/static/images/problemset/island.png)
 #####Source code:
-[https://github.com/Tanviw/LeetCode-Solutions/blob/master/Array/463.%20Island%20Perimeter.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Array/463.%20Island%20Perimeter.java)
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/Hash%20Table/463.%20Island%20Perimeter.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Hash%20Table/463.%20Island%20Perimeter.java)
 
 <h3 id="2.2">454. 4Sum II</h3>
 #####LeetCode Link:
@@ -312,6 +314,7 @@ The two tuples are:
 1. (0, 0, 0, 1) -> A[0] + B[0] + C[0] + D[1] = 1 + (-2) + (-1) + 2 = 0
 2. (1, 1, 0, 0) -> A[1] + B[1] + C[0] + D[0] = 2 + (-1) + (-1) + 0 = 0
 #####Source code:
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/Hash%20Table/454.%204Sum%20II.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Hash%20Table/454.%204Sum%20II.java)
 
 <h3 id="2.3">451. Sort Characters By Frequency</h3>
 #####LeetCode Link:
@@ -355,6 +358,7 @@ Note that 'A' and 'a' are treated as two different characters.
 #####Source code:
 
 
+
 ----------
 
 <h3 id="3.1">413. Arithmetic Slices</h3>
@@ -386,7 +390,7 @@ A = [1, 2, 3, 4]
 
 return: 3, for 3 arithmetic slices in A: [1, 2, 3], [2, 3, 4] and [1, 2, 3, 4] itself.
 #####Source code:
-
+[[https://github.com/Tanviw/LeetCode-Solutions/blob/master/Math/413.%20Arithmetic%20Slices.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Math/413.%20Arithmetic%20Slices.java)]([https://github.com/Tanviw/LeetCode-Solutions/blob/master/Math/413.%20Arithmetic%20Slices.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Math/413.%20Arithmetic%20Slices.java))
 
 ----------
 
@@ -406,6 +410,7 @@ Note:
 The vowels does not include the letter "y".
 #####Source code:
 
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/Two%20Pointers/345.%20Reverse%20Vowels%20of%20a%20String.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Two%20Pointers/345.%20Reverse%20Vowels%20of%20a%20String.java)
 <h3 id="4.2">344. Reverse String</h3>
 #####LeetCode Link:
 [https://leetcode.com/problems/reverse-string/](https://leetcode.com/problems/reverse-string/)
@@ -416,6 +421,7 @@ Example:
 Given s = "hello", return "olleh".
 #####Source code:
 
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/Two%20Pointers/344.%20Reverse%20String.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Two%20Pointers/344.%20Reverse%20String.java)
 
 ----------
 
@@ -442,6 +448,7 @@ Output: True
 
 Explanation: It's the substring "abc" four times. (And the substring "abcabc" twice.)
 #####Source code:
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/String/459.%20Repeated%20Substring%20Pattern.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/String/459.%20Repeated%20Substring%20Pattern.java)
 
 <h3 id="5.2">383. Ransom Note</h3>
 #####LeetCode Link:
@@ -458,6 +465,8 @@ canConstruct("a", "b") -> false
 canConstruct("aa", "ab") -> false
 canConstruct("aa", "aab") -> true
 #####Source code:
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/String/383.%20Ransom%20Note.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/String/383.%20Ransom%20Note.java)
+
 <h3 id="5.3">385. Mini Parser</h3>
 #####LeetCode Link:
 [https://leetcode.com/problems/mini-parser/](https://leetcode.com/problems/mini-parser/)
@@ -491,7 +500,7 @@ Return a NestedInteger object containing a nested list with 2 elements:
 
          a. An integer containing value 789.
 #####Source code:
-
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/String/385.%20Mini%20Parser.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/String/385.%20Mini%20Parser.java)
 
 ----------
 
@@ -515,6 +524,7 @@ You should make use of what you have produced already.
 Divide the numbers in ranges like [2-3], [4-7], [8-15] and so on. And try to generate new range from previous.
 Or does the odd/even status of the number help you in calculating the number of 1s?
 #####Source code:
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/Dynamic%20Programming/338.%20Counting%20Bits.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Dynamic%20Programming/338.%20Counting%20Bits.java)
 
 <h3 id="6.2">312. Burst Balloons</h3>
 #####LeetCode Link:
@@ -537,7 +547,7 @@ Return 167
     nums = [3,1,5,8] --> [3,5,8] -->   [3,8]   -->  [8]  --> []
    coins =  3*1*5      +  3*5*8    +  1*3*8      + 1*8*1   = 167
 #####Source code:
-
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/Dynamic%20Programming/312.%20Burst%20Balloons.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Dynamic%20Programming/312.%20Burst%20Balloons.java)
 
 ----------
 
@@ -558,7 +568,7 @@ Input:
 Output:
 [[5,0], [7,0], [5,2], [6,1], [4,4], [7,1]]
 #####Source code:
-
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/Greedy/406.%20Queue%20Reconstruction%20by%20Height.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Greedy/406.%20Queue%20Reconstruction%20by%20Height.java)
 
 ----------
 
@@ -591,6 +601,7 @@ Return:
 
 [[0, 4], [1, 3], [1, 4], [2, 2], [3, 0], [3, 1], [4, 0]] (positions with parentheses in above matrix).
 #####Source code:
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/Depth-first%20Search/417.%20Pacific%20Atlantic%20Water%20Flow.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Depth-first%20Search/417.%20Pacific%20Atlantic%20Water%20Flow.java)
 
 <h3 id="8.2">394. Decode String</h3>
 #####LeetCode Link:
@@ -610,6 +621,7 @@ s = "3[a]2[bc]", return "aaabcbc".
 s = "3[a2[c]]", return "accaccacc".
 s = "2[abc]3[cd]ef", return "abcabccdcdcdef".
 #####Source code:
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/Depth-first%20Search/394.%20Decode%20String.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Depth-first%20Search/394.%20Decode%20String.java)
 
 <h3 id="8.3">104. Maximum Depth of Binary Tree</h3>
 #####LeetCode Link:
@@ -619,6 +631,7 @@ Given a binary tree, find its maximum depth.
 
 The maximum depth is the number of nodes along the longest path from the root node down to the farthest leaf node.
 #####Source code:
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/Depth-first%20Search/104.%20Maximum%20Depth%20of%20Binary%20Tree.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Depth-first%20Search/104.%20Maximum%20Depth%20of%20Binary%20Tree.java)
 
 <h3 id="8.4">100. Same Tree</h3>
 #####LeetCode Link:
@@ -628,3 +641,4 @@ Given two binary trees, write a function to check if they are equal or not.
 
 Two binary trees are considered equal if they are structurally identical and the nodes have the same value.
 #####Source code:
+[https://github.com/Tanviw/LeetCode-Solutions/blob/master/Depth-first%20Search/100.%20Same%20Tree.java](https://github.com/Tanviw/LeetCode-Solutions/blob/master/Depth-first%20Search/100.%20Same%20Tree.java)
